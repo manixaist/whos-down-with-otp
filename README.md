@@ -4,7 +4,7 @@ Simple OTP generator using TOTP
 This is a very simple OTP generator using TOTP
 
 # Setup
-Open the app.config file in the console directory.  This can be done any time after the code is built as well.
+Open the app.config file in the console and/or UI directory.  This can be done any time after the code is built as well.
 Add/Change the following
 
 ```xml
