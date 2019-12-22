@@ -10,6 +10,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMFA", "SMFA\SMFA.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STOTP", "STOTP\STOTP.csproj", "{95E29572-821D-432B-8313-DBF824A3500A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMFAUI", "SMFAUI\SMFAUI.csproj", "{82867E1E-AF5D-4084-9E5F-33AACF7E8DC5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{95E29572-821D-432B-8313-DBF824A3500A} = {95E29572-821D-432B-8313-DBF824A3500A}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +29,10 @@ Global
 		{95E29572-821D-432B-8313-DBF824A3500A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95E29572-821D-432B-8313-DBF824A3500A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95E29572-821D-432B-8313-DBF824A3500A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82867E1E-AF5D-4084-9E5F-33AACF7E8DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82867E1E-AF5D-4084-9E5F-33AACF7E8DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82867E1E-AF5D-4084-9E5F-33AACF7E8DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82867E1E-AF5D-4084-9E5F-33AACF7E8DC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
